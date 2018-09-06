@@ -1,0 +1,36 @@
+import java.util.Scanner;
+import java.awt.Window;
+//Jeremy Martin
+/*Project Description:
+ * My project will be a simple 2D RPG game. 
+ * That manages an inventory and items.
+ * Eventually.
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Welcome the User
+		System.out.println("Welcome to my integration Project.");
+		System.out.println("Are you here to watch me crash and burn, while I writhe around in confusion? (Y/N) ");
+		System.out.println("*hint* use caps *hint*");
+		
+		//init vars
+		String answer;
+		
+		//init scanner and read users response
+		Scanner scan = new Scanner(System.in);
+		answer = scan.nextLine();
+		scan.close();
+		
+		//test response, and reply
+		if(answer.equals("Y")) {
+			System.out.println("You Monster, How could you!");
+		}else if(answer.equals("N")) {
+			System.out.println("Awesome, thank Goodness you're here.");
+		}else {
+			System.out.println("You Okay buddy? The instructions were simple.");
+		}
+	}
+
+}

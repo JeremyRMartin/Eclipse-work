@@ -1,0 +1,11 @@
+
+
+public class Canvas {
+	public Canvas(double width, double height) {
+	}
+	
+	
+
+}
+
+
